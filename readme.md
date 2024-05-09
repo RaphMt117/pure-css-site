@@ -20,7 +20,7 @@ Para construir nossa landing page, utilizamos as seguintes tecnologias:
 
 - **HTML5**
 - **CSS3**
-- **FrameWork PureCSS**
+- **FrameWork Pure CSS**
 - **JavaScript**
 
 ### Como Utilizar
@@ -30,18 +30,8 @@ Para construir nossa landing page, utilizamos as seguintes tecnologias:
    - Abra o arquivo `index.html` em seu navegador web para visualizar a landing page.
 
 2. **Visualização Online**:
-   - Acesse [PetParent](https://www.PetParent.com) para ver a landing page online.
+   - Acesse [PetParent](https://davinicoletto.github.io/pure-css-site/) para ver a landing page online.
 
 ### Contribuição
 
 Se você deseja contribuir para o desenvolvimento do PetParent ou reportar problemas, sinta-se à vontade para abrir uma issue ou enviar um pull request para nosso repositório no GitHub.
-
-### Contato
-
-Para mais informações, entre em contato conosco pelo email info@PetParent.com.
-
-Esperamos que goste da nossa landing page!
-
----
-
-*Este projeto foi desenvolvido com ❤️ pela equipe do PetParent.*
