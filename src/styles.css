@@ -8,31 +8,48 @@
   --color-error: #e22121;
   --color-success: #26db6b;
 
-  --font-title: 50px;
-  --font-ubtitle: 40px;
-  --font-text: 30px;
-  --font-subtext: 20px;
+  --font-title: 50;
+  --font-ubtitle: 40;
+  --font-text: 30;
+  --font-subtext: 20;
 }
-
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
   background-color: var(--color-secondary);
 }
 
+.custom-restricted-width {
+  width: 200px;
+}
 .pure-menu-horizontal {
   width: 100%;
   padding: 0px 20px;
   display: flex;
+  flex-flow: row wrap;
   justify-content: space-between;
   align-items: center;
   background-color: var(--color-secondary);
   box-shadow: 0px 0px 10px rgb(66, 66, 66);
+}
+
+.pure-menu-vertical {
+  width: 50%;
+  padding: 0px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.pure-menu-item {
+  height: auto;
 }
 
 .pure-menu-link {
@@ -58,8 +75,6 @@ body {
   border-radius: 5px;
 }
 
-
-
 a.pure-button-primary {
   background: var(--color-on-secondary);
   color: var(--color-on-primary);
@@ -77,34 +92,14 @@ a.pure-button-primary {
   z-index: 4;
 }
 
-.home-menu .pure-menu-heading {
-  color: white;
-  font-weight: 400;
-  font-size: 120%;
-}
-
-.home-menu .pure-menu-selected a {
-  color: white;
-}
-
-.home-menu a {
-  color: #6fbef3;
-}
-
-.home-menu li a:hover,
-.home-menu li a:focus {
-  background: none;
-  border: none;
-  color: #aecfe5;
-}
-
 .splash-container {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(../assets/img/splash_background.jpg);
+  background-position: center;
   z-index: 1;
   overflow: hidden;
   width: 100%;
-  height: 88%;
+  height: 120%;
   top: 0;
   left: 0;
   position: fixed !important;
@@ -146,7 +141,7 @@ a.pure-button-primary {
   width: 100%;
   min-height: 12%;
   z-index: 2;
-  background: white;
+  background: var(--color-secondary);
 }
 
 .content {
@@ -164,36 +159,134 @@ a.pure-button-primary {
   color: white;
 }
 
-.l-box{
-    padding: 10px;
+.l-box {
+  padding: 10px;
 }
 
 .content-subhead {
   color: var(--color-highlight);
   position: relative;
   padding-bottom: 5px;
-
 }
 
 .content-subhead i {
   margin-right: 7px;
 }
 
-.content-text{
-    color: white;
+.content-text {
+  color: white;
 }
 
 .ribbon {
   background: var(--color-on-secondary);
   color: #aaa;
+  padding: 20px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+.flex-container form {
+  margin-bottom: 50px;
+}
+
+fieldset {
+  height: 99%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.checkbox-container {
+  display: block;
+  position: relative;
+  padding: 10px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.checkbox-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.checkbox-image {
+  left: 0;
+  top: 0;
+  width: 50px;
+}
+
+.download-options {
+  display: flex;
+  justify-content: center;
+}
+
+.checkbox-container input:checked + .checkbox-image {
+  border-radius: 50%;
+  padding: 2px;
+  box-shadow: 0px 0px 4px grey;
 }
 
 .footer {
-  background: var(--color-secondary);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  padding: 40px 40px;
+  background: #f2f2f2;
   bottom: 0;
   width: 100%;
 }
 
-.is-center{
-    text-align: center;
+.footer-access-container {
+  width: 100%;
+  flex-flow: row nowrap;
+  overflow: hidden;
+  align-items: start;
+}
+
+.footer {
+  font-size:x-small;
+}
+
+.footer-contact {
+  margin-top: 20px;
+}
+
+.footer-section-title{
+  margin-bottom: 15px;
+}
+
+.footer-separator {
+  height: 100px;
+  width: 1px;
+  background-color: rgba(128, 128, 128, 0.616);
+}
+
+.is-center {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .flex-container {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+  }
+  .flex-container img {
+    margin-right: 20px;
+  }
+  .flex-container form{
+    padding: 20px;
+  }
 }
