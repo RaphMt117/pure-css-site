@@ -1,12 +1,12 @@
-## PetParent Landing Page
+## PetParent Landing Page 🐶
 
 Bem-vindo à página inicial do PetParent App, um aplicativo dedicado aos seus amados animais de estimação! Aqui está uma visão geral rápida do que você precisa saber sobre o nosso site de landing page.
 
-### Descrição do Projeto
+### Descrição do Projeto 🐩
 
 O PetParent é um aplicativo que visa facilitar a vida dos amantes de animais de estimação, oferecendo uma plataforma intuitiva para conectar donos de animais, prestadores de serviços e empresas do ramo pet, além de oferecer recursos para os tutores garantirem um bom gerenciamento da rotina de seus pets. Nossa landing page foi desenvolvida para apresentar de forma cativante os principais recursos e benefícios do PetParent, visando capturar o interesse dos usuários em potencial.
 
-### Recursos Principais
+### Recursos Principais 🐕
 
 - **Apresentação Visual Atraente e Responsiva**: Utilizamos um design moderno e amigável para proporcionar uma experiência agradável aos visitantes.
 
