@@ -12,7 +12,7 @@ O PetParent é um aplicativo que visa facilitar a vida dos amantes de animais de
 
 <!-- ![](media/print1.jpg)
 ![](media/print2.jpg) -->
-<div style="display: flex; flex-direction: column ">
+<div style="display: flex; flex-direction: column; width: 300px; justify-content: center ">
 <p align="center">
   <img src="media/print1.jpg" width="350" title="hover text">
 </p>
