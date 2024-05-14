@@ -17,7 +17,27 @@ O PetParent é um aplicativo que visa facilitar a vida dos amantes de animais de
   <img src="media/print1.jpg" width="500" title="hover text">
 </p>
 </div>
-  
+<div style="display: flex; gap: 18px; width: 350px">
+
+<div>
+
+  ![aaa](media/print3.jpg)
+
+</div>
+
+<div>
+
+  ![aaa](media/print3.jpg)
+
+</div>
+
+<div>
+
+  ![aaa](media/print3.jpg)
+
+</div>
+
+</div>
 - **Informações sobre o App**: Detalhamos os recursos principais do aplicativo, incluindo agendamento de serviços, comunidade pet, dicas e muito mais.
   
 - **Formulário de Contato**: Incluímos um formulário de contato para os interessados entrarem em contato conosco diretamente.
